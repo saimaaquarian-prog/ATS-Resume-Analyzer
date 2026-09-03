@@ -10,7 +10,7 @@ from pypdf import PdfReader
 from google import genai
 from google.genai import types
 
-MODEL_NAME = "gemini-3.6-flash"
+MODEL_NAME = "gemini-3.5-flash"
 MAX_RESUME_CHARS = 50000
 
 st.set_page_config(page_title="Resume ATS Analyzer", page_icon="📄", layout="wide")
